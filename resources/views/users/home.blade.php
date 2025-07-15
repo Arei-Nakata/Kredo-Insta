@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="row gx-5">
-    <div class="col-8">
+    <div class="col-8 bg-secondary">
         @forelse ($home_posts as $post)
             <div class="card mb-4">
                 {{-- title --}}
